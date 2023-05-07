@@ -1,4 +1,4 @@
-# Deploying an Azure Resource Group using Terraform
+# Deploying an AWS S3 Bucket using Terraform
 
 ## Introduction
 
@@ -55,7 +55,7 @@ name     = "my-s3-bucket"
 ```
 > You should then see what the outputs will produce.
 
-6.  Deploy your resource group:
+6.  Deploy your S3 bucket:
 
 ```
   terraform apply
@@ -66,7 +66,7 @@ name     = "my-s3-bucket"
 8. Monitor the progress and wait for the completion of the ```terraform apply``` command before
 proceeding.
 
-9. Confirm that the resource group deployed:
+9. Confirm that the S3 bucket deployed:
 
 ```
   terraform state list
