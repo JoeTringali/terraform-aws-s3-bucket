@@ -13,16 +13,16 @@ This library is licensed under the MIT-0 License. See the LICENSE file.
 Before you get started with deploying the solution, you must install the
 following prerequisites:
 
-1. [Azure Command Line Interface (Azure CLI)](https://learn.microsoft.com/en-us/cli/azure/) 
-    -- for instructions, see [How to Install the Azure 
-    CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)
+1. [AWS Command Line Interface (AWS CLI)](https://aws.amazon.com/cli/)
+    -- for instructions, see [Installing the AWS
+    CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html)
 
 1.  [Terraform](https://developer.hashicorp.com/terraform/docs)
     -- for instructions, see [Install Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
 
 ## Deploying the solution
 
-The below steps deploy the reference implementation in Azure.
+The below steps deploy the reference implementation in AWS.
 
 To deploy run the following commands from a
 terminal session:
