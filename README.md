@@ -30,51 +30,51 @@ terminal session:
 1.  Download code from GitHub repo 
     (<https://github.com/JoeTringali/terraform-aws-s3-bucket>).
 
-2.  Edit the terraform.tfvars file to include the name of the S3 bucket to be created:
+1.  Edit the terraform.tfvars file to include the name of the S3 bucket to be created:
 
-```
-name     = "my-s3-bucket"
-```
+    ```
+      name     = "my-s3-bucket"
+    ```
 
-3. Initialize the working directory:
+1. Initialize the working directory:
 
-```
-  terraform init
-```
+    ```
+      terraform init
+    ```
 
-4.  Make sure `providers.tf` is formatted correctly:
+1.  Make sure `providers.tf` is formatted correctly:
 
-```
-  terraform fmt
-```
+    ```
+      terraform fmt
+    ```
 
-5. See what it's expecting for the S3 bucket:
+1. See what it's expecting for the S3 bucket:
 
-```
-  terraform plan
-```
-> You should then see what the outputs will produce.
+    ```
+      terraform plan
+    ```
+    > You should then see what the outputs will produce.
 
-6.  Deploy your S3 bucket:
+1.  Deploy your S3 bucket:
 
-```
-  terraform apply
-```
+    ```
+      terraform apply
+    ```
 
-7. Enter `yes` at the prompt. It will then take a few minutes to finish running.
+1. Enter `yes` at the prompt. It will then take a few minutes to finish running.
 
-8. Monitor the progress and wait for the completion of the ```terraform apply``` command before
+1. Monitor the progress and wait for the completion of the ```terraform apply``` command before
 proceeding.
 
-9. Confirm that the S3 bucket deployed:
+1. Confirm that the S3 bucket deployed:
 
-```
-  terraform state list
-```
+    ```
+      terraform state list
+    ```
 
-10. Check the returned list of resources to ensure the S3 bucket was successfully deployed.
+1. Check the returned list of resources to ensure the S3 bucket was successfully deployed.
 
-11. In the [AWS Console browser window](https://aws.amazon.com/console/), navigate to **S3** and confirm that your S3 bucket is listed.
+1. In the [AWS Console browser window](https://aws.amazon.com/console/), navigate to **S3** and confirm that your S3 bucket is listed.
 
 ## Cleanup
 
