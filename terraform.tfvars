@@ -1,1 +1,0 @@
-name = "tringali-joe-management"
